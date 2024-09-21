@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="9F49D806-BE0D-784A-B164-D8CACFBAA8E6">
+    <physical>
+      <pfn filetype="ROOT_All" name="/lustre/AtlUser/liheng/data/WH_pxaod_samples/group.phys-higgs.341432.e4210_a766_a821_r7676_p3042.11583544.PAOD_WH._000012.pool.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>

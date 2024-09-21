@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/src/components/PhysicsAnpProd_entries.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/src/components/PhysicsAnpProd_load.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpProd"
+		],
+		"name" : "PhysicsAnpProd"
+	}
+}

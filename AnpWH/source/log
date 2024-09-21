@@ -1,0 +1,184 @@
+__main__: INFO - Start time: Wed Nov 28 22:16:36 2018
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/Top/Run_410550_ntuple.root
+__main__: INFO -    1 pre-selected files
+__main__: INFO -    1 file(s) passed filter: --file-key=".root"
+__main__: INFO - Process 1 input file(s)
+   /lustre/AtlUser/liheng/whNtuples/Top/Run_410550_ntuple.root
+[?1034hConfig.pyc: INFO - loadPhysicsAnpWHLib - load shared libraries
+__main__: INFO - Configure python
+RunWH.py: INFO - Prepare python configuration...
+Config.pyc: INFO - prepareReadNtuple - read xml files from: ../source/PhysicsAnpWH/config/wh
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/StudyWH.xml
+   KeyHist:     "StudyWH"
+   #histograms:  1
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotLepWH.xml
+   KeyHist:     "PlotLepWH"
+   #histograms:  10
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotCandWH.xml
+   KeyHist:     "PlotCandWH"
+   #histograms:  37
+RunWH.py: INFO - Finished python configuration: process up to 10000 event(s)
+__main__: INFO - Execute C++
+*****************************************************************
+ReadNtuple::ExecuteRegistry - start executing C++ code...
+readNtuple::Config - created algorithm: "topAlg" - "RunAlgs"
+HistMan::Config - read Registry configuration
+   Print: 1
+   Debug: 0
+readNtuple::Config
+   Input TreeName:     nominal
+   OutputFile:         WH410550.root
+   NtupleInstance:     reco
+   NEvent:             10000
+   NEventPerFile:      0
+   Debug:              0
+   CloseFile:          1
+   FillTrueParts:      1
+
+   PrefixHit:          ""
+   PrefixCluster:      ""
+   PrefixJet:          "m_jet_"
+   PrefixElec:         "m_elec_"
+   PrefixMuon:         "m_muon_"
+   PrefixTau:          ""
+   PrefixTrack:        ""
+   PrefixTrackJet:     ""
+   PrefixTruthPart:    "m_mc_part_"
+   PrefixTruthVtx:     "m_mc_vtx_"
+   PrefixTruthJet:     ""
+
+readNtuple::Config - process 5 unique vector/object branches 
+   added specific branch prefix: m_elec_
+   added specific branch prefix: m_jet_
+   added specific branch prefix: m_mc_part_
+   added specific branch prefix: m_mc_vtx_
+   added specific branch prefix: m_muon_
+readNtuple::Init - retrieved Registry for top algorithm: topAlg
+topAlg::Config - will attempt to create and configure 4 algorithm(s)...
+prepCand::PrintCutConfig - print 16 configurationss
+   CutEvent - number of cuts: 0
+   CutPrep - number of cuts: 0
+   CutElec - number of cuts: 9
+      CutItem - CutAuthor  : print 1 condition:
+                author               == 1
+      CutItem - CutPt      : print 1 condition:
+                Pt                   >  10000
+      CutItem - CutEtaCrack: use absolute values
+      CutItem - CutEtaCrack: print 2 OR  condition(s):
+                EtaBE2               <  1.37
+                EtaBE2               >  1.52
+      CutItem - CutEtaFid  : use absolute values
+      CutItem - CutEtaFid  : print 1 condition:
+                Eta                  <  2.47
+      CutPID      - ([Pt] > 25.0e3 && [DFCommonElectronsLHMedium] == 1) || ([Pt] < 25.0e3 && [DFCommonElectronsLHTight] == 1)
+      CutItem - CutOR      : print 1 condition:
+                ORHFJets_IsRemoved   == 0
+      CutItem - CutZ0Sin   : use absolute values
+      CutItem - CutZ0Sin   : print 1 condition:
+                Z0Sin                <  0.5
+      CutItem - CutD0Sig   : use absolute values
+      CutItem - CutD0Sig   : print 1 condition:
+                D0Sig                <  5
+      CutItem - CutIso     : print 1 condition:
+                isoFixedCutTight     == 1
+   CutElecObj - number of cuts: 0
+   CutMuonObj - number of cuts: 0
+   CutJet - number of cuts: 5
+      CutItem - CutPt      : print 1 condition:
+                Pt                   >  25000
+      CutItem - CutEta     : use absolute values
+      CutItem - CutEta     : print 1 condition:
+                Eta                  <  4.5
+      CutItem - CutFR      : use absolute values
+      CutItem - CutFR      : print 2 OR  condition(s):
+                Eta                  <  2.5
+                Pt                   >  30000
+      CutItem - CutJVT     : use absolute values
+      CutItem - CutJVT     : print 3 OR  condition(s):
+                Pt                   >  60000
+                Eta                  >  2.4
+                JVT                  >  0.59
+      CutItem - CutOR      : print 1 condition:
+                ORHFJets_IsRemoved   == 0
+   CutJetBTag - number of cuts: 1
+      CutItem - CutJetBTag : print 1 condition:
+                MV2c10_85_Pass       == 1
+   CutJetLTag - number of cuts: 1
+      CutItem - CutJetBTag : print 1 condition:
+                MV2c10_85_Pass       == 0
+   CutTrackJet - number of cuts: 0
+   CutMet - number of cuts: 0
+   CutMuon - number of cuts: 9
+      CutItem - CutPt      : print 1 condition:
+                Pt                   >  10000
+      CutItem - CutEta     : use absolute values
+      CutItem - CutEta     : print 1 condition:
+                Eta                  <  2.5
+      CutItem - CutPID     : print 1 condition:
+                Medium               == 1
+      CutItem - CutIsBad   : print 1 condition:
+                isBadMuon            == 0
+      CutItem - CutPassedID: print 1 condition:
+                PassedID             == 1
+      CutItem - CutOR      : print 1 condition:
+                ORHFJets_IsRemoved   == 0
+      CutItem - CutZ0Sin   : use absolute values
+      CutItem - CutZ0Sin   : print 1 condition:
+                Z0Sin                <  0.5
+      CutItem - CutD0Sig   : use absolute values
+      CutItem - CutD0Sig   : print 1 condition:
+                D0Sig                <  3
+      CutItem - CutIso     : print 1 condition:
+                isoFixedCutTight     == 1
+   CutTau - number of cuts: 0
+   CutTrackPV - number of cuts: 0
+   CutVtx - number of cuts: 0
+   CutTruth - number of cuts: 0
+   CutOverlap_MuonJetCond - number of cuts: 0
+topAlg::Config - created and configured 4 algorithm(s):
+   prepReco - PrepReco
+   prepCand - PrepCand
+   prepWH   - PrepWH
+   runNexus - RunNexus
+readNtuple::Init - finished configuring algorithm: topAlg
+readNtuple::Init - opened output ROOT file: WH410550.root
+readNtuple::Exec - loop over 1 input file(s)
+-----------------------------------------------------------------
+runNexus::MakeAlg - created: runNexus_410550/RunChain
+Record #1000     Real time 00:00:00 CPU time 0.700
+Record #2000     Real time 00:00:00 CPU time 0.470
+Record #3000     Real time 00:00:00 CPU time 0.470
+Record #4000     Real time 00:00:00 CPU time 0.470
+Record #5000     Real time 00:00:00 CPU time 0.470
+Record #6000     Real time 00:00:00 CPU time 0.470
+Record #7000     Real time 00:00:00 CPU time 0.450
+Record #8000     Real time 00:00:00 CPU time 0.490
+Record #9000     Real time 00:00:00 CPU time 0.460
+Record #10000    Real time 00:00:00 CPU time 0.480
+-----------------------------------------------------------------
+readNtuple::Exec - finished reading input files: event count = 10000
+readNtuple::Done - finalize algorithms
+prepReco::Done - TimerProcessReco: Real time 00:00:00 CPU time 0.290
+prepReco::Done - TimerProcessTrue: Real time 00:00:00 CPU time 0.580
+topAlg::Done - releasing 4 algorithm(s)
+   erasing prepReco
+   erasing prepCand
+   erasing prepWH
+   erasing runNexus
+topAlg::Done - finished.
+readNtuple::Done - release algorithm handle(s)...
+readNtuple::Done - writing ROOT file: WH410550.root
+readNtuple::Done - writing ROOT file: WH410550.root - done!
+readNtuple::Done - closing ROOT file: WH410550.root
+readNtuple::Done - closing ROOT file: WH410550.root - done!
+readNtuple::Done - processed 10000 event(s)
+readNtuple::Done - algs  exec timer: Real time 00:00:01 CPU time 1.930
+readNtuple::Done - total exec timer: Real time 00:00:04 CPU time 4.930
+readNtuple::Done - finished.
+readNtuple::Execute - all is done.
+*****************************************************************
+__main__: INFO - Run python post processing code...
+PhysicsAnpBaseIO.pyc: INFO - copyCounts - will save 1 histogram(s) to WH410550.root
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WH410550.root:Counts/410550
+__main__: INFO - Local time: Wed Nov 28 22:17:05 2018
+__main__: INFO - Total time: 29.5s

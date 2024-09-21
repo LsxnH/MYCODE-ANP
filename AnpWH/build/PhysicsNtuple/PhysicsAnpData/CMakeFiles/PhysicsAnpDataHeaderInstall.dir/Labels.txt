@@ -1,0 +1,5 @@
+# Target labels
+ PhysicsAnpData
+# Source files and their labels
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/include/PhysicsAnpData
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/include/PhysicsAnpData.rule

@@ -1,0 +1,1 @@
+python $TestArea/../source/PhysicsAnpWH/macros/runWH.py /lustre/AtlUser/liheng/whNtuples/ttbar410470/410470_00.root -n 10000 -o WH410470.root &>runWHlog& tail -f runWHlog

@@ -1,0 +1,15 @@
+# Target labels
+ PhysicsAnpProd
+# Source files and their labels
+/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdUtils.py
+/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODFull.py
+/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODHIGG3.py
+/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODr21.py
+/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/python/PhysicsAnpProdUtils.py
+/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/python/PhysicsAnpProdxAODFull.py
+/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/python/PhysicsAnpProdxAODHIGG3.py
+/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/python/PhysicsAnpProdxAODr21.py
+/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdUtils.py.rule
+/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODFull.py.rule
+/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODHIGG3.py.rule
+/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODr21.py.rule

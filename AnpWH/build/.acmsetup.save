@@ -1,0 +1,4 @@
+SourceArea = /hepustc/home/hengli/testarea/AnpWH/build/../source
+TestArea = /hepustc/home/hengli/testarea/AnpWH/build
+ACM_GITLAB_PATH_PREFIX = https://:@gitlab.cern.ch:8443/
+asetupArguments = AthAnalysis,21.2.53

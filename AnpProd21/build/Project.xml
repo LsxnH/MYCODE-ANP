@@ -1,0 +1,134 @@
+<!-- Auto-generated file, please do not edit -->
+<Project name="WorkDir" >
+   <SubProject name="GaudiKernel" >
+   </SubProject>
+   <SubProject name="SGTools" >
+   </SubProject>
+   <SubProject name="xAODBase" >
+   </SubProject>
+   <SubProject name="AthenaBaseComps" >
+   </SubProject>
+   <SubProject name="AthAnalysisBaseComps" >
+   </SubProject>
+   <SubProject name="AsgTools" >
+   </SubProject>
+   <SubProject name="EventInfo" >
+   </SubProject>
+   <SubProject name="xAODCaloEvent" >
+   </SubProject>
+   <SubProject name="xAODCore" >
+   </SubProject>
+   <SubProject name="xAODCutFlow" >
+   </SubProject>
+   <SubProject name="xAODEventInfo" >
+   </SubProject>
+   <SubProject name="xAODEventShape" >
+   </SubProject>
+   <SubProject name="xAODEgamma" >
+   </SubProject>
+   <SubProject name="xAODMuon" >
+   </SubProject>
+   <SubProject name="xAODJet" >
+   </SubProject>
+   <SubProject name="xAODTrigger" >
+   </SubProject>
+   <SubProject name="xAODTruth" >
+   </SubProject>
+   <SubProject name="xAODTau" >
+   </SubProject>
+   <SubProject name="xAODTracking" >
+   </SubProject>
+   <SubProject name="xAODMissingET" >
+   </SubProject>
+   <SubProject name="TriggerMatchingTool" >
+   </SubProject>
+   <SubProject name="TrigDecisionTool" >
+   </SubProject>
+   <SubProject name="AsgAnalysisInterfaces" >
+   </SubProject>
+   <SubProject name="EgammaAnalysisInterfaces" >
+   </SubProject>
+   <SubProject name="FTagAnalysisInterfaces" >
+   </SubProject>
+   <SubProject name="JetAnalysisInterfaces" >
+   </SubProject>
+   <SubProject name="MuonAnalysisInterfaces" >
+   </SubProject>
+   <SubProject name="PMGAnalysisInterfaces" >
+   </SubProject>
+   <SubProject name="MCTruthClassifier" >
+   </SubProject>
+   <SubProject name="MuonMomentumCorrections" >
+   </SubProject>
+   <SubProject name="MuonEfficiencyCorrections" >
+   </SubProject>
+   <SubProject name="MuonSelectorTools" >
+   </SubProject>
+   <SubProject name="ElectronPhotonSelectorTools" >
+   </SubProject>
+   <SubProject name="IsolationSelection" >
+   </SubProject>
+   <SubProject name="AssociationUtils" >
+   </SubProject>
+   <SubProject name="PMGOverlapRemovalTools" >
+   </SubProject>
+   <SubProject name="TauAnalysisTools" >
+   </SubProject>
+   <SubProject name="JetInterface" >
+   </SubProject>
+   <SubProject name="JetCalibTools" >
+   </SubProject>
+   <SubProject name="JetCPInterfaces" >
+   </SubProject>
+   <SubProject name="JetResolution" >
+   </SubProject>
+   <SubProject name="METInterface" >
+   </SubProject>
+   <SubProject name="METUtilities" >
+   </SubProject>
+   <SubProject name="PhysicsAnpProd" >
+      <Dependency name="GaudiKernel" />
+      <Dependency name="SGTools" />
+      <Dependency name="xAODBase" />
+      <Dependency name="AthenaBaseComps" />
+      <Dependency name="AthAnalysisBaseComps" />
+      <Dependency name="AsgTools" />
+      <Dependency name="EventInfo" />
+      <Dependency name="xAODCaloEvent" />
+      <Dependency name="xAODCore" />
+      <Dependency name="xAODCutFlow" />
+      <Dependency name="xAODEventInfo" />
+      <Dependency name="xAODEventShape" />
+      <Dependency name="xAODEgamma" />
+      <Dependency name="xAODMuon" />
+      <Dependency name="xAODJet" />
+      <Dependency name="xAODTrigger" />
+      <Dependency name="xAODTruth" />
+      <Dependency name="xAODTau" />
+      <Dependency name="xAODTracking" />
+      <Dependency name="xAODMissingET" />
+      <Dependency name="TriggerMatchingTool" />
+      <Dependency name="TrigDecisionTool" />
+      <Dependency name="AsgAnalysisInterfaces" />
+      <Dependency name="EgammaAnalysisInterfaces" />
+      <Dependency name="FTagAnalysisInterfaces" />
+      <Dependency name="JetAnalysisInterfaces" />
+      <Dependency name="MuonAnalysisInterfaces" />
+      <Dependency name="PMGAnalysisInterfaces" />
+      <Dependency name="MCTruthClassifier" />
+      <Dependency name="MuonMomentumCorrections" />
+      <Dependency name="MuonEfficiencyCorrections" />
+      <Dependency name="MuonSelectorTools" />
+      <Dependency name="ElectronPhotonSelectorTools" />
+      <Dependency name="IsolationSelection" />
+      <Dependency name="AssociationUtils" />
+      <Dependency name="PMGOverlapRemovalTools" />
+      <Dependency name="TauAnalysisTools" />
+      <Dependency name="JetInterface" />
+      <Dependency name="JetCalibTools" />
+      <Dependency name="JetCPInterfaces" />
+      <Dependency name="JetResolution" />
+      <Dependency name="METInterface" />
+      <Dependency name="METUtilities" />
+   </SubProject>
+</Project>

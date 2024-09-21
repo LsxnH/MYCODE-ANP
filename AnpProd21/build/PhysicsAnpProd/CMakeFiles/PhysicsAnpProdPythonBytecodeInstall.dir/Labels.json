@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdUtils.pyc"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODFull.pyc"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODHIGG3.pyc"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODr21.pyc"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdUtils.pyc.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODFull.pyc.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODHIGG3.pyc.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpProd/PhysicsAnpProdxAODr21.pyc.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpProd"
+		],
+		"name" : "PhysicsAnpProdPythonBytecodeInstall"
+	}
+}

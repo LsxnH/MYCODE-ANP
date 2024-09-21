@@ -1,0 +1,2 @@
+/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpBase/CMakeFiles/PhysicsAnpBaseDict.dsomap
+/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpData/CMakeFiles/PhysicsAnpDataDict.dsomap

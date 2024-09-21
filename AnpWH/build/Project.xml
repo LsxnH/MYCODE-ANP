@@ -1,0 +1,17 @@
+<!-- Auto-generated file, please do not edit -->
+<Project name="WorkDir" >
+   <SubProject name="AtlasROOT" >
+   </SubProject>
+   <SubProject name="PhysicsAnpData" >
+      <Dependency name="AtlasROOT" />
+   </SubProject>
+   <SubProject name="PhysicsAnpBase" >
+      <Dependency name="AtlasROOT" />
+      <Dependency name="PhysicsAnpData" />
+   </SubProject>
+   <SubProject name="PhysicsAnpWH" >
+      <Dependency name="AtlasROOT" />
+      <Dependency name="PhysicsAnpData" />
+      <Dependency name="PhysicsAnpBase" />
+   </SubProject>
+</Project>

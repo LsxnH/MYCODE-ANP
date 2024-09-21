@@ -1,0 +1,6 @@
+# Target labels
+ PhysicsAnpBase
+# Source files and their labels
+/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpBase/CMakeFiles/PhysicsAnpBaseDictDictGen
+/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpBase/CMakeFiles/PhysicsAnpBaseDictDictGen.rule
+/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpBase/CMakeFiles/PhysicsAnpBaseDict.dsomap.rule

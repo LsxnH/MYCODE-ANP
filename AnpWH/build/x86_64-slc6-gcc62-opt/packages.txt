@@ -1,0 +1,4 @@
+# Regular package(s) built in WorkDir - 1.0.0
+PhysicsAnpWH <unknown>
+PhysicsNtuple/PhysicsAnpBase PhysicsAnpBase-v1
+PhysicsNtuple/PhysicsAnpData PhysicsAnpData-v1

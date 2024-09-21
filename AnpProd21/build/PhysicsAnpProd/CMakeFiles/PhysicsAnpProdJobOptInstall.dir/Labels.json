@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/jobOptions/PhysicsAnpProd/PhysicsAnpProd_ReadxAODFull.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/jobOptions/PhysicsAnpProd/PhysicsAnpProd_ReadxAODHIGG3.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/jobOptions/PhysicsAnpProd/PhysicsAnpProd_ReadxAODr21.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/share/PhysicsAnpProd_ReadxAODFull.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/share/PhysicsAnpProd_ReadxAODHIGG3.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/share/PhysicsAnpProd_ReadxAODr21.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/jobOptions/PhysicsAnpProd/PhysicsAnpProd_ReadxAODFull.py.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/jobOptions/PhysicsAnpProd/PhysicsAnpProd_ReadxAODHIGG3.py.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/jobOptions/PhysicsAnpProd/PhysicsAnpProd_ReadxAODr21.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpProd"
+		],
+		"name" : "PhysicsAnpProdJobOptInstall"
+	}
+}

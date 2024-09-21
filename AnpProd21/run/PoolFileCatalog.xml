@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!-- Edited By POOL -->
+<!DOCTYPE POOLFILECATALOG SYSTEM "InMemory">
+<POOLFILECATALOG>
+  <File ID="7342ED30-8247-1440-AA98-F53578057CF7">
+    <physical>
+      <pfn filetype="ROOT_All" name="/lustre/stormfs/atlas/atlaslocalgroupdisk/rucio/mc16_13TeV/30/99/DAOD_HIGG3D1.15802601._000269.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="7445A3CC-C210-4D46-81EE-9364380A1CED">
+    <physical>
+      <pfn filetype="ROOT_All" name="/lustre/stormfs/atlas/atlaslocalgroupdisk/rucio/data15_13TeV/60/71/DAOD_HIGG3D1.15516312._000010.pool.root.1"/>
+    </physical>
+    <logical/>
+  </File>
+
+  <File ID="8986AE64-AA8F-B24B-953E-4064CA32C87F">
+    <physical>
+      <pfn filetype="ROOT_All" name="/lustre/AtlUser/liheng/data/DxAOD/MUON5_DAOD-2019-05-04-MUON5_DAOD_Anp_v3/job_0000_DAOD_MUON5.out.root"/>
+    </physical>
+    <logical/>
+  </File>
+
+</POOLFILECATALOG>

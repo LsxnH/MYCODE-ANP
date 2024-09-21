@@ -1,0 +1,5 @@
+# Target labels
+ PhysicsAnpProd
+# Source files and their labels
+/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/src/components/PhysicsAnpProd_entries.cxx
+/hepustc/home/hengli/testarea/AnpProd21/source/PhysicsAnpProd/src/components/PhysicsAnpProd_load.cxx

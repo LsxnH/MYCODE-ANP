@@ -1,0 +1,1 @@
+import py_compile; py_compile.compile( '/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpBase/python/PhysicsAnpBaseConfig.py', cfile = '/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseConfig.pyc', doraise = True )

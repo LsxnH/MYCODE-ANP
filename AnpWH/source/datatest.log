@@ -1,0 +1,173 @@
+__main__: INFO - Start time: Mon Nov 26 07:11:39 2018
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /moose/AtlUser/liheng/wh/ntuples_output/data15DHJ/data15DHJ0.root
+__main__: INFO -    1 pre-selected files
+__main__: INFO -    1 file(s) passed filter: --file-key=".root"
+__main__: INFO - Process 1 input file(s)
+   /moose/AtlUser/liheng/wh/ntuples_output/data15DHJ/data15DHJ0.root
+[?1034hConfig.pyc: INFO - loadPhysicsAnpWHLib - load shared libraries
+__main__: INFO - Configure python
+RunWH.py: INFO - Prepare python configuration...
+Config.pyc: INFO - prepareReadNtuple - read xml files from: ../source/PhysicsAnpWH/config/wh
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/StudyWH.xml
+   KeyHist:     "StudyWH"
+   #histograms:  1
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotCandWH.xml
+   KeyHist:     "PlotCandWH"
+   #histograms:  37
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotLepWH.xml
+   KeyHist:     "PlotLepWH"
+   #histograms:  10
+RunWH.py: INFO - Finished python configuration: process up to 1000 event(s)
+__main__: INFO - Execute C++
+*****************************************************************
+ReadNtuple::ExecuteRegistry - start executing C++ code...
+readNtuple::Config - created algorithm: "topAlg" - "RunAlgs"
+HistMan::Config - read Registry configuration
+   Print: 1
+   Debug: 0
+readNtuple::Config
+   Input TreeName:     nominal
+   OutputFile:         datatest.root
+   NtupleInstance:     reco
+   NEvent:             1000
+   NEventPerFile:      0
+   Debug:              0
+   CloseFile:          1
+   FillTrueParts:      1
+
+   PrefixHit:          ""
+   PrefixCluster:      ""
+   PrefixJet:          "m_jet_"
+   PrefixElec:         "m_elec_"
+   PrefixMuon:         "m_muon_"
+   PrefixTau:          ""
+   PrefixTrack:        ""
+   PrefixTrackJet:     ""
+   PrefixTruthPart:    "m_mc_part_"
+   PrefixTruthVtx:     "m_mc_vtx_"
+   PrefixTruthJet:     ""
+
+readNtuple::Config - process 5 unique vector/object branches 
+   added specific branch prefix: m_elec_
+   added specific branch prefix: m_jet_
+   added specific branch prefix: m_mc_part_
+   added specific branch prefix: m_mc_vtx_
+   added specific branch prefix: m_muon_
+readNtuple::Init - retrieved Registry for top algorithm: topAlg
+topAlg::Config - will attempt to create and configure 4 algorithm(s)...
+prepCand::PrintCutConfig - print 16 configurationss
+   CutEvent - number of cuts: 0
+   CutPrep - number of cuts: 0
+   CutElec - number of cuts: 10
+      CutItem - CutAuthor  : print 1 condition:
+                author               == 1
+      CutItem - CutPt      : print 1 condition:
+                Pt                   >  10000
+      CutItem - CutEtaCrack: use absolute values
+      CutItem - CutEtaCrack: print 2 OR  condition(s):
+                EtaBE2               <  1.37
+                EtaBE2               >  1.52
+      CutItem - CutEtaFid  : use absolute values
+      CutItem - CutEtaFid  : print 1 condition:
+                Eta                  <  2.47
+      CutPID      - ([Pt] > 25.0e3 && [DFCommonElectronsLHMedium] == 1) || ([Pt] < 25.0e3 && [DFCommonElectronsLHTight] == 1)
+      CutItem - CutORSelect: print 1 condition:
+                ORHFJets_PassSelection == 1
+      CutItem - CutORPass  : print 1 condition:
+                ORHFJets_IsRemoved   == 0
+      CutItem - CutZ0Sin   : use absolute values
+      CutItem - CutZ0Sin   : print 1 condition:
+                Z0Sin                <  0.5
+      CutItem - CutD0Sig   : use absolute values
+      CutItem - CutD0Sig   : print 1 condition:
+                D0Sig                <  5
+      CutItem - CutIso     : print 1 condition:
+                isoFixedCutTight     == 1
+   CutElecObj - number of cuts: 0
+   CutMuonObj - number of cuts: 0
+   CutJet - number of cuts: 3
+      CutItem - CutPt      : print 1 condition:
+                Pt                   >  25000
+      CutItem - CutEta     : use absolute values
+      CutItem - CutEta     : print 1 condition:
+                Eta                  <  2.5
+      CutItem - CutJVT     : use absolute values
+      CutItem - CutJVT     : print 3 OR  condition(s):
+                Pt                   >  60000
+                Eta                  >  2.4
+                JVT                  >  0.59
+   CutJetBTag - number of cuts: 1
+      CutItem - CutJetBTag : print 1 condition:
+                MV2c10_discriminant  >  0.05
+   CutJetLTag - number of cuts: 1
+      CutItem - CutJetBTag : print 1 condition:
+                MV2c10_discriminant  <  0.05
+   CutTrackJet - number of cuts: 0
+   CutMet - number of cuts: 0
+   CutMuon - number of cuts: 10
+      CutItem - CutPt      : print 1 condition:
+                Pt                   >  10000
+      CutItem - CutEta     : use absolute values
+      CutItem - CutEta     : print 1 condition:
+                Eta                  <  2.5
+      CutItem - CutQuality : print 1 condition:
+                Quality              <= 1
+      CutItem - CutPID     : print 1 condition:
+                Medium               == 1
+      CutItem - CutORSelect: print 1 condition:
+                ORHFJets_PassSelection == 1
+      CutItem - CutORPass  : print 1 condition:
+                ORHFJets_IsRemoved   == 0
+      CutItem - CutZ0Sin   : use absolute values
+      CutItem - CutZ0Sin   : print 1 condition:
+                Z0Sin                <  0.5
+      CutItem - CutD0Sig   : use absolute values
+      CutItem - CutD0Sig   : print 1 condition:
+                D0Sig                <  3
+      CutItem - CutIso     : print 1 condition:
+                isoFixedCutTight     == 1
+      CutItem - CutIsBad   : print 1 condition:
+                isBadMuon            == 0
+   CutTau - number of cuts: 0
+   CutTrackPV - number of cuts: 0
+   CutVtx - number of cuts: 0
+   CutTruth - number of cuts: 0
+   CutOverlap_MuonJetCond - number of cuts: 0
+topAlg::Config - created and configured 4 algorithm(s):
+   prepReco - PrepReco
+   prepCand - PrepCand
+   prepWH   - PrepWH
+   runNexus - RunNexus
+readNtuple::Init - finished configuring algorithm: topAlg
+readNtuple::Init - opened output ROOT file: datatest.root
+readNtuple::Exec - loop over 1 input file(s)
+-----------------------------------------------------------------
+runNexus::MakeAlg - created: runNexus_0/RunChain
+Record #1000     Real time 00:00:00 CPU time 0.300
+-----------------------------------------------------------------
+readNtuple::Exec - finished reading input files: event count = 1000
+readNtuple::Done - finalize algorithms
+prepReco::Done - TimerProcessReco: Real time 00:00:00 CPU time 0.000
+prepReco::Done - TimerProcessTrue: Real time 00:00:00 CPU time 0.000
+topAlg::Done - releasing 4 algorithm(s)
+   erasing prepReco
+   erasing prepCand
+   erasing prepWH
+   erasing runNexus
+topAlg::Done - finished.
+readNtuple::Done - release algorithm handle(s)...
+readNtuple::Done - writing ROOT file: datatest.root
+readNtuple::Done - writing ROOT file: datatest.root - done!
+readNtuple::Done - closing ROOT file: datatest.root
+readNtuple::Done - closing ROOT file: datatest.root - done!
+readNtuple::Done - processed 1000 event(s)
+readNtuple::Done - algs  exec timer: Real time 00:00:00 CPU time 0.100
+readNtuple::Done - total exec timer: Real time 00:00:00 CPU time 0.300
+readNtuple::Done - finished.
+readNtuple::Execute - all is done.
+*****************************************************************
+__main__: INFO - Run python post processing code...
+PhysicsAnpBaseIO.pyc: INFO - copyCounts - will save 1 histogram(s) to datatest.root
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: datatest.root:Counts/data
+__main__: INFO - Local time: Mon Nov 26 07:11:45 2018
+__main__: INFO - Total time: 7.0s

@@ -1,0 +1,1 @@
+import py_compile; py_compile.compile( '/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/python/Style.py', cfile = '/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Style.pyc', doraise = True )

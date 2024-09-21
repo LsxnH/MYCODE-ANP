@@ -1,0 +1,31 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseConfig.pyc"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseIO.pyc"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/__init__.pyc"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseConfig.pyc.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseIO.pyc.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/__init__.pyc.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpBase"
+		],
+		"name" : "PhysicsAnpBasePythonBytecodeInstall"
+	}
+}

@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseConfig.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseIO.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/__init__.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpBase/python/PhysicsAnpBaseConfig.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpBase/python/PhysicsAnpBaseIO.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpBase/python/__init__.py"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseConfig.py.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/PhysicsAnpBaseIO.py.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpBase/__init__.py.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpBase"
+		],
+		"name" : "PhysicsAnpBasePythonInstall"
+	}
+}

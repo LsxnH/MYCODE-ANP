@@ -1,0 +1,1 @@
+#python PhysicsAnpWH/macros/plotCand.py ${path_of_MC_dir} --data-file=${path_of_data.root}/data.root --xsec-list=PhysicsAnpWH/data/plot/xsec_list.txt --get-regions --counts-dir=Counts --config-path=PhysicsAnpWH/data/plot/plot_stack_wh_wz_2l.txt -r -s --do-fixrange --ilumi=36184.86 --draw-region -o plot

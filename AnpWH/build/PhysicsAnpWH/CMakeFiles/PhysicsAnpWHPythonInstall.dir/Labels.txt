@@ -1,0 +1,24 @@
+# Target labels
+ PhysicsAnpWH
+# Source files and their labels
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Common.py
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Config.py
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Plot.py
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/RunWH.py
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Style.py
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/XSec.py
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/__init__.py
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/python/Common.py
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/python/Config.py
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/python/Plot.py
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/python/RunWH.py
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/python/Style.py
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/python/XSec.py
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/python/__init__.py
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Common.py.rule
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Config.py.rule
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Plot.py.rule
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/RunWH.py.rule
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/Style.py.rule
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/XSec.py.rule
+/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/python/PhysicsAnpWH/__init__.py.rule

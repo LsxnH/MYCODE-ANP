@@ -1,0 +1,202 @@
+__main__: INFO - Start time: Fri Apr 12 01:04:13 2019
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341422_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341424_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341425_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341426_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341428_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341430_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341432_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341433_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341434_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341436_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_345326_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_345327_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_345337_ntuple.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/whNtuples/WHZH/Run_345446_ntuple.root
+__main__: INFO -   14 pre-selected files
+__main__: INFO -   14 file(s) passed filter: --file-key=".root"
+__main__: INFO - Process 14 input file(s)
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341422_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341424_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341425_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341426_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341428_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341430_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341432_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341433_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341434_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_341436_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_345326_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_345327_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_345337_ntuple.root
+   /lustre/AtlUser/liheng/whNtuples/WHZH/Run_345446_ntuple.root
+[?1034hConfig.pyc: INFO - loadPhysicsAnpWHLib - load shared libraries
+__main__: INFO - Configure python
+RunWH.pyc: INFO - Prepare python configuration...
+Config.pyc: INFO - prepareReadNtuple - read xml files from: ../source/PhysicsAnpWH/config/wh
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/StudyWH.xml
+   KeyHist:     "StudyWH"
+   #histograms:  1
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotLepWH.xml
+   KeyHist:     "PlotLepWH"
+   #histograms:  18
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotLepWHZ.xml
+   KeyHist:     "PlotLepWHZ"
+   #histograms:  18
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotCandWH.xml
+   KeyHist:     "PlotCandWH"
+   #histograms:  66
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotCandWHWZ.xml
+   KeyHist:     "PlotCandWHWZ"
+   #histograms:  55
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotCandWHZ.xml
+   KeyHist:     "PlotCandWHZ"
+   #histograms:  70
+HistMan::ReadFile - processed file ../source/PhysicsAnpWH/config/wh/PlotCandWHttbar.xml
+   KeyHist:     "PlotCandWHttbar"
+   #histograms:  56
+RunWH.pyc: INFO - Finished python configuration: process up to 10000 event(s)
+__main__: INFO - Execute C++
+*****************************************************************
+ReadNtuple::ExecuteRegistry - start executing C++ code...
+readNtuple::Config - created algorithm: "topAlg" - "RunAlgs"
+HistMan::Config - read Registry configuration
+   Print: 1
+   Debug: 0
+readNtuple::Config
+   Input TreeName:     nominal
+   OutputFile:         WHZH.root
+   NtupleInstance:     reco
+   NEvent:             10000
+   NEventPerFile:      0
+   Debug:              0
+   CloseFile:          1
+   FillTrueParts:      1
+
+   PrefixHit:          ""
+   PrefixCluster:      ""
+   PrefixJet:          "m_jet_"
+   PrefixElec:         "m_elec_"
+   PrefixMuon:         "m_muon_"
+   PrefixTau:          ""
+   PrefixTrack:        ""
+   PrefixTrackJet:     ""
+   PrefixTruthPart:    "m_mc_part_"
+   PrefixTruthVtx:     "m_mc_vtx_"
+   PrefixTruthJet:     ""
+
+readNtuple::Config - process 5 unique vector/object branches 
+   added specific branch prefix: m_elec_
+   added specific branch prefix: m_jet_
+   added specific branch prefix: m_mc_part_
+   added specific branch prefix: m_mc_vtx_
+   added specific branch prefix: m_muon_
+readNtuple::Init - retrieved Registry for top algorithm: topAlg
+topAlg::Config - will attempt to create and configure 5 algorithm(s)...
+prepCand::PrintCutConfig - print 16 configurationss
+   CutEvent - number of cuts: 0
+   CutPrep - number of cuts: 0
+   CutElec - number of cuts: 8
+      CutOR       - [ORHFJets_IsRemoved] == 0
+      CutOQ       - [IsGoodQuality] > 0
+      CutPt       - [Pt] > 10.0e3
+      CutEtaCrack - fabs([ClEta]) < 1.37 || fabs([ClEta]) > 1.52
+      CutEtaFid   - fabs([ClEta]) < 2.47
+      CutPID      - [DFCommonElectronsLHLoose] == 1
+      CutZ0Sin    - fabs([Z0Sin]) < 0.5
+      CutD0Sig    - fabs([D0Sig]) < 5.0
+   CutElecObj - number of cuts: 0
+   CutMuonObj - number of cuts: 0
+   CutJet - number of cuts: 5
+      CutOR       - [ORHFJets_IsRemoved] == 0
+      CutPt       - [Pt] > 25.0e3
+      CutEta      - fabs([Eta]) < 4.5
+      CutFR       - fabs([Eta]) < 2.5 || [Pt] > 30.0e3
+      CutItem - CutJVT     : use absolute values
+      CutItem - CutJVT     : print 3 OR  condition(s):
+                Pt                   >  60000
+                Eta                  >  2.4
+                JVT                  >  0.59
+   CutJetBTag - number of cuts: 1
+      CutItem - CutJetBTag : print 1 condition:
+                MV2c10_85_Pass       == 1
+   CutJetLTag - number of cuts: 1
+      CutItem - CutJetBTag : print 1 condition:
+                MV2c10_85_Pass       == 0
+   CutTrackJet - number of cuts: 0
+   CutMet - number of cuts: 0
+   CutMuon - number of cuts: 7
+      CutOR       - [ORHFJets_IsRemoved] == 0
+      CutPt       - [Pt] > 10.0e3
+      CutEta      - fabs([Eta]) < 2.5
+      CutPID      - [Medium] == 1 || ([HighPt] == 1 && [PassedID] == 1 && [MuonType] != 1)
+      CutPassedID - [PassedID] == 1 && [MuonType] != 1
+      CutZ0Sin    - fabs([Z0Sin]) < 0.5
+      CutD0Sig    - fabs([D0Sig]) < 15.0
+   CutTau - number of cuts: 0
+   CutTrackPV - number of cuts: 0
+   CutVtx - number of cuts: 0
+   CutTruth - number of cuts: 0
+   CutOverlap_MuonJetCond - number of cuts: 0
+topAlg::Config - created and configured 5 algorithm(s):
+   prepReco - PrepReco
+   prepCand - PrepCand
+   prepWH   - PrepWH
+   prepSF   - PrepSF
+   runNexus - RunNexus
+readNtuple::Init - finished configuring algorithm: topAlg
+readNtuple::Init - opened output ROOT file: WHZH.root
+readNtuple::Exec - loop over 14 input file(s)
+-----------------------------------------------------------------
+runNexus::MakeAlg - created: runNexus_341422/RunChain
+Record #1000     Real time 00:00:01 CPU time 0.680
+Record #2000     Real time 00:00:00 CPU time 0.380
+Record #3000     Real time 00:00:00 CPU time 0.310
+Record #4000     Real time 00:00:00 CPU time 0.320
+Record #5000     Real time 00:00:00 CPU time 0.540
+Record #6000     Real time 00:00:00 CPU time 0.480
+Record #7000     Real time 00:00:00 CPU time 0.370
+Record #8000     Real time 00:00:00 CPU time 0.410
+Record #9000     Real time 00:00:00 CPU time 0.330
+Record #10000    Real time 00:00:00 CPU time 0.410
+-----------------------------------------------------------------
+readNtuple::Exec - finished reading input files: event count = 10000
+readNtuple::Done - finalize algorithms
+prepReco::Done - TimerProcessReco: Real time 00:00:00 CPU time 0.160
+prepReco::Done - TimerProcessTrue: Real time 00:00:00 CPU time 0.240
+topAlg::Done - releasing 5 algorithm(s)
+   erasing prepReco
+   erasing prepCand
+   erasing prepWH
+   erasing prepSF
+   erasing runNexus
+topAlg::Done - finished.
+readNtuple::Done - release algorithm handle(s)...
+readNtuple::Done - writing ROOT file: WHZH.root
+readNtuple::Done - writing ROOT file: WHZH.root - done!
+readNtuple::Done - closing ROOT file: WHZH.root
+readNtuple::Done - closing ROOT file: WHZH.root - done!
+readNtuple::Done - processed 10000 event(s)
+readNtuple::Done - algs  exec timer: Real time 00:00:01 CPU time 1.510
+readNtuple::Done - total exec timer: Real time 00:00:04 CPU time 4.230
+readNtuple::Done - finished.
+readNtuple::Execute - all is done.
+*****************************************************************
+__main__: INFO - Run python post processing code...
+PhysicsAnpBaseIO.pyc: INFO - copyCounts - will save 14 histogram(s) to WHZH.root
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/345326
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341433
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/345327
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341436
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341430
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341432
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341424
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341434
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/345446
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/345337
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341426
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341425
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341428
+PhysicsAnpBaseIO.pyc: INFO -    save histogram: WHZH.root:Counts/341422
+__main__: INFO - Local time: Fri Apr 12 01:04:27 2019
+__main__: INFO - Total time: 14.6s

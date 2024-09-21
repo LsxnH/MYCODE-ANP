@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/include/PhysicsAnpWH"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/x86_64-slc6-gcc62-opt/include/PhysicsAnpWH.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpWH"
+		],
+		"name" : "PhysicsAnpWHHeaderInstall"
+	}
+}

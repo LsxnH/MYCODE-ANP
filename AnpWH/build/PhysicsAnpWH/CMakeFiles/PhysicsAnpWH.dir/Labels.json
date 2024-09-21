@@ -1,0 +1,40 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/PlotLep.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/PrepCand.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/PrepSF.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/PrepTruthWH.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/PrepWH.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/PrepttH.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/StudyWH.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/Utils.cxx"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsAnpWH/src/VarDefs.cxx"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpWH"
+		],
+		"name" : "PhysicsAnpWH"
+	}
+}

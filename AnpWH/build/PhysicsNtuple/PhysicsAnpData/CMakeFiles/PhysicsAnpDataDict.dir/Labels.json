@@ -1,0 +1,26 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpData/CMakeFiles/PhysicsAnpDataDictReflexDict.cxx",
+			"labels" : 
+			[
+				"PhysicsAnpData"
+			]
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpData/PhysicsAnpData/PhysicsAnpDataDict.h"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpData/PhysicsAnpData/selection.xml"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpData"
+		],
+		"name" : "PhysicsAnpDataDict"
+	}
+}

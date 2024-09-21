@@ -1,0 +1,19 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/include/PhysicsAnpProd"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpProd21/build/x86_64-slc6-gcc62-opt/include/PhysicsAnpProd.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpProd"
+		],
+		"name" : "PhysicsAnpProdHeaderInstall"
+	}
+}

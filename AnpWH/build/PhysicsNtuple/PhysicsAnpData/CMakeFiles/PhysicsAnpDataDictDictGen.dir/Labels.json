@@ -1,0 +1,22 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpData/CMakeFiles/PhysicsAnpDataDictDictGen"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpData/CMakeFiles/PhysicsAnpDataDictDictGen.rule"
+		},
+		{
+			"file" : "/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpData/CMakeFiles/PhysicsAnpDataDict.dsomap.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"PhysicsAnpData"
+		],
+		"name" : "PhysicsAnpDataDictDictGen"
+	}
+}

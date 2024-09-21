@@ -1,0 +1,10 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpData/PhysicsAnpData/PhysicsAnpDataDict.h
+

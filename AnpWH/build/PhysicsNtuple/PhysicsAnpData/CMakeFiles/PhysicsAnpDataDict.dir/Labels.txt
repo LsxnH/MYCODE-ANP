@@ -1,0 +1,7 @@
+# Target labels
+ PhysicsAnpData
+# Source files and their labels
+/hepustc/home/hengli/testarea/AnpWH/build/PhysicsNtuple/PhysicsAnpData/CMakeFiles/PhysicsAnpDataDictReflexDict.cxx
+ PhysicsAnpData
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpData/PhysicsAnpData/PhysicsAnpDataDict.h
+/hepustc/home/hengli/testarea/AnpWH/source/PhysicsNtuple/PhysicsAnpData/PhysicsAnpData/selection.xml
